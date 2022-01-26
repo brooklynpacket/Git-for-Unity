@@ -239,7 +239,7 @@ namespace Unity.VersionControl.Git
             SPath assetPath = AssetDatabase.GetAssetPath(selected.GetInstanceID()).ToSPath();
             SPath repositoryPath = assetPath.RelativeToRepository(manager.Environment);
 
-            return locks.Any(x => repositoryPath == x.Path && (!isLockedByCurrentUser || x.Owner.Name == currentUsername));
+            return locks.Any(x => repositoryPath == x.Path && (!isLockedByCurrentUser || x.Owner.Name == manager.Environment.User.Name));
         }
 
         private static ITask CreateUnlockObjectTask(Object selected, bool force)
