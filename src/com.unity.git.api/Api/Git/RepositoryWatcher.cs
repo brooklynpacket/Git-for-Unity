@@ -216,7 +216,8 @@ namespace Unity.VersionControl.Git
                 }
                 else
                 {
-                    if (events.Contains(EventType.RepositoryChanged) || ignoredPaths.Any(ignoredPath => fileA.IsChildOf(ignoredPath)))
+                    if (events.Contains(EventType.RepositoryChanged) || ignoredPaths.Any(ignoredPath => fileA.IsChildOf(ignoredPath)) ||
+                        fileA.FileName.StartsWith("~UnityDirMonSyncFile~") || fileA.DirectoryExists())
                     {
                         continue;
                     }
