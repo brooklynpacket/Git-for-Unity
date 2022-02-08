@@ -1,5 +1,5 @@
 {
-  "name": "com.unity.git.ui",
+  "name": "com.jamcity.unity.git.ui",
   "displayName": "Git for Unity UI",
   "description": "Git for Unity brings [Git](https://git-scm.com/) into [Unity](https://unity3d.com/), integrating source control into your work with friendly and accessible tools and workflows.",
   "version": "0.0.0-placeholder",
@@ -9,7 +9,7 @@
   },
   "repository": "git://github.com/brooklynpacket/Git-for-Unity",
   "dependencies": {
-    "com.unity.git.api": "0.0.0-placeholder"
+    "com.jamcity.unity.git.api": "0.0.0-placeholder"
   },
   "publishConfig": {
     "registry":"https://npm.pkg.github.com/@brooklynpacket"
