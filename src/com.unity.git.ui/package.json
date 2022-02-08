@@ -5,6 +5,7 @@
   "version": "0.0.0-placeholder",
   "license" : "MIT",
   "author": {
+    "name": "SF Tools",
     "email": "alex.collins@jamcity.com"
   },
   "repository": "git://github.com/brooklynpacket/Git-for-Unity",
