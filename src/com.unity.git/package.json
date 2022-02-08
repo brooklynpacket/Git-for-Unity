@@ -4,16 +4,14 @@
   "description": "Git for Unity brings [Git](https://git-scm.com/) into [Unity](https://unity3d.com/), integrating source control into your work with friendly and accessible tools and workflows.",
   "version": "0.0.0-placeholder",
   "license" : "MIT",
-    "author": {
-      "email": "shana@spoiledcat.net"
-    },
-    "repository" : {
-      "type" : "git",
-      "url": "git@github.com/Unity-Technologies/Git-for-Unity.git",
-      "directory": "",
-      "revision": ""
-    },
-    "testPackages": {
-      "com.unity.git.tests": "0.0.0-placeholder"
-    }
+  "author": {
+    "email": "alex.collins@jamcity.com"
+  },
+  "repository": "git://github.com/brooklynpacket/Git-for-Unity",
+  "publishConfig": {
+    "registry":"https://npm.pkg.github.com/@brooklynpacket"
+  },
+  "testPackages": {
+    "com.unity.git.tests": "0.0.0-placeholder"
+  }
 }
