@@ -10,7 +10,7 @@
   },
   "repository": "git://github.com/brooklynpacket/Git-for-Unity",
   "dependencies": {
-    "com.jamcity.unity.git.api": "0.0.0-placeholder"
+    "com.jamcity.sf.unity.git.api": "0.0.0-placeholder"
   },
   "publishConfig": {
     "registry":"https://npm.pkg.github.com/@brooklynpacket"
