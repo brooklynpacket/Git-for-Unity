@@ -197,7 +197,7 @@
     <FileUpdate
       Files="$(PublishTo)$(PackageName)\package.json"
       Regex="&quot;testPackages&quot;"
-      ReplacementText="&quot;relatedPackages&quot;" />
+      ReplacementText="&quot;relatedTestPackages&quot;" />
 
   </Target>
 
